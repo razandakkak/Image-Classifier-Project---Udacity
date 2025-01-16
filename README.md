@@ -52,5 +52,5 @@ Making Predictions
 
 Use the predict.py script to predict the species of a flower:
 ```
-python predict.py flowers/test/1/image_06743.jpg --checkpoint checkpoints/model.pth --top_k 5 --category_names cat_to_name.json --gpu
+python predict.py /content/flowers/test/12/image_03994.jpg /content/checkpoint.pth --top_k 5 --category_names cat_to_name.json
 ```
