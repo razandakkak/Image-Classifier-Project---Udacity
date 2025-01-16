@@ -31,18 +31,22 @@ git clone https://github.com/razandakkak/Image-Classifier-Project---Udacity.git
 ```
 pip install -r requirements.txt
 ```
+After setting up the environment, make sure you have the dataset to train your model on; the data directory should have train, validation and test data folders within it.
 
 ## Usage
 Training the Model
-
-Use the train.py script to train a new model: (example)
+Use the train.py script to train a new model: 
 ```
-python train.py --data_dir flowers --save_dir checkpoints --epochs 10 --learning_rate 0.001 --arch resnet18
+python train.py --data_dir <path_to_data> --save_dir <checkpoint_dir> --epochs <num_epochs> --learning_rate <lr> --arch <architecture>
+```
+For example:
+```
+python train.py /content/flowers --save_dir checkpoints --epochs 10 --learning_rate 0.001 --arch "vgg16" --gpu
 ```
 
 Making Predictions
 
 Use the predict.py script to predict the species of a flower:
 ```
-python predict.py --image_path flowers/test/1/image_06743.jpg --checkpoint checkpoints/model.pth --top_k 5 --category_names cat_to_name.json
+python predict.py flowers/test/1/image_06743.jpg --checkpoint checkpoints/model.pth --top_k 5 --category_names cat_to_name.json --gpu
 ```
