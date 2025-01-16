@@ -29,15 +29,19 @@ The repository consists of the following components:
 git clone https://github.com/razandakkak/Image-Classifier-Project---Udacity.git
 ```
 ```
+cd Image-Classifier-Project---Udacity
+```
+```
 pip install -r requirements.txt
 ```
 After setting up the environment, make sure you have the dataset to train your model on; the data directory should have train, validation and test data folders within it.
+*Note: Also make sure you are connected to GPU runtime otherwise it will take a lot of time to perform one epoch.*
 
 ## Usage
 Training the Model
 Use the train.py script to train a new model: 
 ```
-python train.py --data_dir <path_to_data> --save_dir <checkpoint_dir> --epochs <num_epochs> --learning_rate <lr> --arch <architecture>
+python train.py <path_to_data> --save_dir <checkpoint_dir> --epochs <num_epochs> --learning_rate <lr> --arch <architecture>
 ```
 For example:
 ```
