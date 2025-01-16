@@ -1,7 +1,4 @@
 # Image-Classifier-Project---Udacity
-This project is the final project of the nanodegree I am talking with Udacity, which is in collaboration with AWS. In this project I had to use a pretrained model and build a new classifier based on my purpose which is classifying different flowers types.
-
-## Introduction 
 This project implements an AI-based image classifier to predict flower species from input images. The classifier is developed using deep learning techniques and is implemented in Python. This repository contains the code and instructions for training a model, making predictions, and using the classifier in a command-line application.
 
 ## Project Structure
@@ -29,7 +26,7 @@ The repository consists of the following components:
 
 ## Installation
 ```
-git clone 
+git clone https://github.com/razandakkak/Image-Classifier-Project---Udacity.git
 ```
 ```
 pip install -r requirements.txt
