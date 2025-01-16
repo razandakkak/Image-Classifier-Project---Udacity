@@ -21,3 +21,31 @@ The repository consists of the following components:
 - Data exploration and preprocessing.
 - Model architecture and hyperparameter tuning.
 - Evaluation of the trained model.
+
+## Key Features
+1. Deep Learning Framework: Utilizes PyTorch for defining, training, and evaluating the neural network.
+2. Command-line Application: Offers flexibility to train models and make predictions directly from the command line.
+3. Customizability: Allows users to specify hyperparameters, model architecture, and other configurations via command-line arguments.
+
+## Installation
+```
+git clone 
+```
+```
+pip install -r requirements.txt
+```
+
+## Usage
+Training the Model
+
+Use the train.py script to train a new model: (example)
+```
+python train.py --data_dir flowers --save_dir checkpoints --epochs 10 --learning_rate 0.001 --arch resnet18
+```
+
+Making Predictions
+
+Use the predict.py script to predict the species of a flower:
+```
+python predict.py --image_path flowers/test/1/image_06743.jpg --checkpoint checkpoints/model.pth --top_k 5 --category_names cat_to_name.json
+```
