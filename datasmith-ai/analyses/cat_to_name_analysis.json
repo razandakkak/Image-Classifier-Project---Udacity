@@ -1,0 +1,128 @@
+{
+  "fileInfo": {
+    "name": "cat_to_name.json",
+    "size": 2218,
+    "rows": 1,
+    "columns": 102,
+    "uploadedAt": "2025-08-07T13:03:08.642Z"
+  },
+  "edaResults": {
+    "summary": {
+      "totalRows": 1,
+      "totalColumns": 102,
+      "missingValues": 0,
+      "duplicateRows": 0,
+      "memoryUsage": "0.0 MB",
+      "dataTypes": {
+        "text": 102
+      }
+    },
+    "columns": [
+      {
+        "name": "1",
+        "type": "text",
+        "nullCount": 0,
+        "uniqueCount": 1
+      },
+      {
+        "name": "2",
+        "type": "text",
+        "nullCount": 0,
+        "uniqueCount": 1
+      },
+      {
+        "name": "3",
+        "type": "text",
+        "nullCount": 0,
+        "uniqueCount": 1
+      },
+      {
+        "name": "4",
+        "type": "text",
+        "nullCount": 0,
+        "uniqueCount": 1
+      },
+      {
+        "name": "5",
+        "type": "text",
+        "nullCount": 0,
+        "uniqueCount": 1
+      },
+      {
+        "name": "6",
+        "type": "text",
+        "nullCount": 0,
+        "uniqueCount": 1
+      },
+      {
+        "name": "7",
+        "type": "text",
+        "nullCount": 0,
+        "uniqueCount": 1
+      },
+      {
+        "name": "8",
+        "type": "text",
+        "nullCount": 0,
+        "uniqueCount": 1
+      },
+      {
+        "name": "9",
+        "type": "text",
+        "nullCount": 0,
+        "uniqueCount": 1
+      },
+      {
+        "name": "10",
+        "type": "text",
+        "nullCount": 0,
+        "uniqueCount": 1
+      },
+      {
+        "name": "11",
+        "type": "text",
+        "nullCount": 0,
+        "uniqueCount": 1
+      },
+      {
+        "name": "12",
+        "type": "text",
+        "nullCount": 0,
+        "uniqueCount": 1
+      },
+      {
+        "name": "13",
+        "type": "text",
+        "nullCount": 0,
+        "uniqueCount": 1
+      },
+      {
+        "name": "14",
+        "type": "text",
+        "nullCount": 0,
+        "uniqueCount": 1
+      },
+      {
+        "name": "15",
+        "type": "text",
+        "nullCount": 0,
+        "uniqueCount": 1
+      }
+    ],
+    "correlations": [],
+    "recommendations": [],
+    "qualityScore": 100,
+    "aiSuggestions": [
+      "🔍 High-dimensional dataset (102 columns): Consider dimensionality reduction techniques like PCA",
+      "⚡ Feature selection recommended: Identify the most important variables for your analysis",
+      "✅ Excellent data quality: No missing values detected - ready for immediate analysis",
+      "📏 Small dataset (1 rows): Perfect for detailed exploration and manual inspection"
+    ]
+  },
+  "timestamp": "2025-08-07T13:03:38.056Z",
+  "datasmithAI": {
+    "version": "1.0.0",
+    "analysisType": "EDA",
+    "qualityScore": 100
+  }
+}
